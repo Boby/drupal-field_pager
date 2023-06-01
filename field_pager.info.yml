@@ -1,0 +1,16 @@
+name: Field Pager
+description: Field Pager (field_pager) To use fields as multiple pages
+package: Custom
+
+type: module
+core_version_requirement: ^8 || ^9 || ^10
+
+#version: 1.0
+#dependencies:
+#  - entity_reference_revisions
+# @todo : Check the module pass without entity_reference_revisions
+
+# Information added by Drupal.org packaging script on 2023-03-16
+version: '2.0.0-beta2'
+project: 'field_pager'
+datestamp: 1678960519
