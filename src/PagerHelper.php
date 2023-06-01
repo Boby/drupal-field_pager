@@ -94,8 +94,8 @@ class PagerHelper {
       return $fields;
     }
 
-    $currentPage = pager_find_page();
-    pager_default_initialize($nb_items, $items_per_page);
+    $currentPage = \Drupal::service('pager.parameters')->findPage();
+    \Drupal::service('pager.manager')->createPager($nb_items, $items_per_page);
 
     $elements = [];
     if ($summary) {

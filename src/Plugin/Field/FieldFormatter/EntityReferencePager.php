@@ -99,7 +99,7 @@ class EntityReferencePager extends EntityReferenceEntityFormatter {
     $entities = $this->getEntitiesToView($items, $langcode);
     $items_per_page = $this->getSetting('items_per_page');
 
-    $currentPage = pager_find_page();
+    $currentPage = \Drupal::service('pager.parameters')->findPage();
     $deltaStart = $currentPage * $items_per_page;
     $deltaEnd = ($currentPage + 1) * $items_per_page;
 
