@@ -33,4 +33,3 @@ grater than 1 (Or Unlimited).
 
 Change the display plugin on 'Manage Display'->'Format'.
 Note : The default pager plugins are always named like "Xxxxx (Pager)"
-# drupal-field_pager
